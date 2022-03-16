@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home/Index";
-import Transactions from "./pages/Transactions";
+import Movimentacoes from "./pages/Movimentacoes";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div>
         <Header />
         <Route path="/" exact component={Home} />
-        <Route path="/transacoes/:id" exact component={Transactions} />
+        <Route path="/movimentacoes/:data" exact component={Movimentacoes} />
       </div>
     </Router>
   );

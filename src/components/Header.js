@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="headerbar navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand">MyMoney</a>
+        <Link to="/" className="navbar-brand">
+          MyMoney
+        </Link>
       </div>
     </header>
   );

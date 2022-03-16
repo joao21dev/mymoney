@@ -1,12 +1,12 @@
 import React from "react";
-import AddMonth from "./AddMonth";
-import Months from "./Months";
+import AdicionarMes from "./AdicionarMes";
+import Meses from "./Meses";
 
 const Home = () => {
   return (
     <div className="container">
-      <AddMonth />
-      <Months />
+      <AdicionarMes />
+      <Meses />
     </div>
   );
 };
